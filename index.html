@@ -5,39 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marvel shop</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <h1>
+    <header class="header">
+        <nav class="navigation">
+            <h1 class="main-title">
                 <a href="https://www.google.com" target="_blank">
                     <img src="images/marvel-logo.png" width="90" height="40" alt="marvel-logo">
                 </a>
             </h1>
-            <ul>
-                <li><a href="#news">News</a></li>
-                <li><a href="#series">Series</a></li>
-                <li><a href="#character">Character</a></li>
-                <li><a href="#">Images</a></li>
+            <ul class="nav-menu">
+                <li>
+                    <a class="nav-menu_link" href="#news">News</a>
+                </li>
+                <li>
+                    <a class="nav-menu_link" href="#series">Series</a>
+                </li>
+                <li>
+                    <a class="nav-menu_link" href="#character">Character</a>
+                </li>
             </ul>
         </nav>
-        <h2>All Marvel Comics in one plase</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ad numquam id rerum qui atque. Ratione ad repudiandae ex commodi dicta cum ullam voluptatem unde. Harum beatae maiores nemo animi.</p>
-        <input type="text">
-        <button>
-            <img src="images/svg/magnifying-glass.svg" width="20" height="20" alt="search icon">
-        </button>
-        <p>"With great power comes great responsibility"</p>
-        <p>Benjamin Parker</p>
+       <div class="header-content_wrapper">
+        <div class="header-title_wrapper">
+            <h2 class="header-title">All Marvel Comics in one plase</h2>
+            <p class="header-title_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ad numquam id rerum qui atque. Ratione ad repudiandae ex commodi dicta cum ullam voluptatem unde. Harum beatae maiores nemo animi.</p>
+            <input class="search-input" type="text">
+            <button class="search-button">
+                <img src="images/svg/magnifying-glass.svg" width="20" height="20" alt="search icon">
+            </button>
+            <p>"With great power comes great responsibility"</p>
+            <p>Benjamin Parker</p>
+           </div>
 
-        <div>
-            <img width="100" src="images/avengerspng.png" alt="avenger picture">
-        <p>Avengers Univers</p>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laboriosam eveniet? Ratione eius similique facilis pariatur ipsam. Libero hic cupiditate vitae ea illum blanditiis modi eaque explicabo alias, mollitia aperiam!</p>
-        <a href="#">See details</a>
-    </div>
+            <div>
+                <img width="100" src="images/avengerspng.png" alt="avenger picture">
+                <p>Avengers Univers</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laboriosam eveniet? Ratione eius similique facilis pariatur ipsam. Libero hic cupiditate vitae ea illum blanditiis modi eaque explicabo alias, mollitia aperiam!</p>
+                <a href="#">See details</a>
+            </div>
+       </div>
     </header>
-        <main>
+
+    <main>
         <section id="news">
             <h2>Latest Releases</h2>
             <ul>
