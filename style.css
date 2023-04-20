@@ -13,19 +13,19 @@ ul {
 
 .main-title {
     display: inline;
-    margin-right: 1200px;
 }
 
-.nav-menu_link {
+.nav-menu__link  {
     color: white;
 }
 
 .navigation {
     display: flex;
-    padding: 0 0 0 10px;
+    justify-content: space-around;
+    margin-bottom: 30px;
 }
 
-.header-title_wrapper {
+.header-title__wrapper {
     width: 400px;
 }
 
@@ -34,17 +34,17 @@ ul {
     font-size: 40px;
 }
 
-.header-title_description {
+.header-title__description {
     color: white;
 }
 
-.header-content_wrapper {
+.header-content__wrapper {
     padding: 0 100px;
 }
 
 .search-button {
     width: 32px;
-    height: 32px;    
+    height: 32px;
     background-color: red;
     border: none;
     outline: none;
@@ -54,4 +54,178 @@ ul {
 .search-input {
     height: 30px;
     border-radius: 20px;
+}
+
+.nav-menu {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.signin-button {
+    background-color: red;
+}
+
+.btn {
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.spider-man-logo {
+    position: absolute;
+    top: 22px;
+    right: 82px;
+    border-radius: 50%;
+}
+
+.auth-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.universe__description {
+    color: white;
+    width: 280px;
+}
+
+.universe__wrapper {
+    display: flex;
+}
+
+.universe__title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.universe__image {
+    margin-right: 20px;
+}
+
+.universe__link {
+    color: white;
+    text-decoration: none;
+}
+
+.link__wrapper {
+    width: 100px;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.input__wrapper {
+    position: relative;
+}
+
+.search-button {
+    position: absolute;
+    top: 2px;
+    left: 144px;
+    cursor: pointer;
+}
+
+.releases__title,
+.series__title,
+.character__title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.releases__wrapper,
+.series__news,
+.character__list {
+    display: flex;
+    padding: 0 200px;
+    justify-content: space-between;
+}
+
+.releases__picture {
+    border-radius: 30px;
+}
+
+.releases__item {
+    position: relative;
+}
+
+.rating__wrapper {
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.news {
+    margin-bottom: 50px;
+}
+
+.series__news--item {
+    position: relative;
+}
+
+.series__news--description {
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    color: white;
+    font-weight: 700;
+}
+
+.series__picture {
+    border-radius: 10px;
+}
+
+.character__description {
+    display: none;
+    position: absolute;
+    bottom: 15px;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 30px;
+    margin: 0;
+}
+
+.character__image {
+    border-radius: 30px;
+}
+
+.character__list--item {
+    position: relative;
+}
+
+.character__list--item:hover > .character__description {
+    display: block;
+}
+
+.footer {
+    display: flex;
+    padding: 0 200px;
+}
+
+.social-icon__list {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    padding: 0;
+}
+
+.menu {
+    text-decoration: none;
+    text-decoration: black;
 }

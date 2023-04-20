@@ -5,159 +5,178 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marvel shop</title>
-   <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
         <nav class="navigation">
             <h1 class="main-title">
-                <a href="https://www.google.com" target="_blank">
+                <a href="https://www.google.com/" target="_blank">
                     <img src="images/marvel-logo.png" width="90" height="40" alt="marvel-logo">
                 </a>
             </h1>
             <ul class="nav-menu">
                 <li>
-                    <a class="nav-menu_link" href="#news">News</a>
+                    <a class="nav-menu__link" href="#news">News</a>
                 </li>
                 <li>
-                    <a class="nav-menu_link" href="#series">Series</a>
+                    <a class="nav-menu__link" href="#series">Series</a>
                 </li>
                 <li>
-                    <a class="nav-menu_link" href="#character">Character</a>
+                    <a class="nav-menu__link" href="#character">Character</a>
                 </li>
             </ul>
+            <div class="auth-wrapper">
+                <button class="signin-button btn">Signin</button>
+                <button class="signup-button btn">Signup</button>
+                <img class="spider-man-logo" src="./images/spider-man-logo.png" width="40" alt="spider-man-logo">
+            </div>
         </nav>
-       <div class="header-content_wrapper">
-        <div class="header-title_wrapper">
-            <h2 class="header-title">All Marvel Comics in one plase</h2>
-            <p class="header-title_description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ad numquam id rerum qui atque. Ratione ad repudiandae ex commodi dicta cum ullam voluptatem unde. Harum beatae maiores nemo animi.</p>
-            <input class="search-input" type="text">
-            <button class="search-button">
-                <img src="images/svg/magnifying-glass.svg" width="20" height="20" alt="search icon">
-            </button>
-            <p>"With great power comes great responsibility"</p>
-            <p>Benjamin Parker</p>
-           </div>
-
-            <div>
-                <img width="100" src="images/avengerspng.png" alt="avenger picture">
-                <p>Avengers Univers</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, laboriosam eveniet? Ratione eius similique facilis pariatur ipsam. Libero hic cupiditate vitae ea illum blanditiis modi eaque explicabo alias, mollitia aperiam!</p>
-                <a href="#">See details</a>
+       <div class="header-content__wrapper">
+            <div class="header-title__wrapper">
+                <h2 class="header-title">All Marvel Comics in one place</h2>
+                <p class="header-title__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, adipisci dolorum! Dolorum, officiis pariatur quam delectus ea nulla explicabo animi iusto maiores amet voluptas omnis eligendi aliquid nam minima iure.</p>
+                <div class="input__wrapper">
+                    <input class="search-input" type="text">
+                    <button class="search-button">
+                        <img src="images/svg/magnifying-glass.svg" width="20" alt="search icon">
+                    </button>
+                </div>
+                <p>With great power....</p>
+                <p>Benjamin Parker</p>
+            </div>
+            
+            <div class="universe__wrapper">
+                <img class="universe__image" width="150" height="230" src="images/avengerspng.png" alt="avenger picture">
+                <div class="universe__desccription--wrapper">
+                    <p class="universe__title">Avengers Univers</p>
+                    <p class="universe__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolorum modi maiores, odit harum distinctio quisquam nemo similique eaque minus officia? Eum saepe dolore, ab fugiat veritatis pariatur vitae nisi.</p>
+                    <div class="link__wrapper">
+                        <a class="universe__link" href="#">See details</a>
+                    </div>
+                </div>
             </div>
        </div>
     </header>
 
     <main>
         <section id="news" class="news">
-            <h2>Latest Releases</h2>
-            <ul>
-                <li>
-                   <img width="150" src="images/spider-man.png" alt="spider man releases">
-                   <img src="images/svg/star.svg" alt="rating star">
-                   <span>4.0</span>
+            <h2 class="releases__title">Latest Releases</h2>
+            <ul class="releases__wrapper">
+                <li class="releases__item">
+                    <img class="releases__picture" width="150" src="images/spider-man.png" alt="spider man release">
+                    <div class="rating__wrapper">
+                        <img src="images/svg/star.svg" alt="rating star">
+                        <span>4.0</span>
+                    </div>
                 </li>
-                <li>
-                    <img width="150" src="images/avengerspng.png" alt="avegers releases">
-                    <img src="images/svg/star.svg" alt="rating star">
-                    <span>4.5</span>
+                <li class="releases__item">
+                    <img class="releases__picture" width="150" src="images/avengerspng.png" alt="avengers release">
+                    <div class="rating__wrapper">
+                        <img src="images/svg/star.svg" alt="rating star">
+                        <span>4.5</span>
+                    </div>
+                </li class="releases__item">
+                <li class="releases__item">
+                    <img class="releases__picture" width="150" src="images/guardians.png" alt="guardians release">
+                    <div class="rating__wrapper">
+                        <img src="images/svg/star.svg" alt="rating star">
+                        <span>2.1</span>
+                    </div>
                 </li>
-                <li>
-                    <img width="150" src="images/guardians.png" alt="guardians releases">
-                    <img src="images/svg/star.svg" alt="rating star">
-                    <span>2.1</span>
-                </li>
-                <li>
-                    <img width="150" src="images/hulk.png" alt="hulk releases">
-                    <img src="images/svg/star.svg" alt="rating star">
-                    <span>3.5</span>
+                <li class="releases__item">
+                    <img class="releases__picture" width="150" src="images/hulk.png" alt="hulk release">
+                    <div class="rating__wrapper">
+                        <img src="images/svg/star.svg" alt="rating star">
+                        <span>3.5</span>
+                    </div>
                 </li>
             </ul>
         </section>
 
         <section id="series">
-            <h2>Series</h2>
-            <ul class="news">
-                <li>
-                    <a href="#">
-                        <img width="250" src="images/february.png" alt="february">
-                        <p>February 2022</p>
+            <h2 class="series__title">Series</h2>
+            <ul class="series__news">
+                <li class="series__news--item">
+                    <a class="series__link" href="#">
+                        <img class="series__picture" width="250" src="images/february.png" alt="february">
+                        <p class="series__news--description">February 2022</p>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <img width="250" src="images/march.png" alt="march">
-                        <p>March 2022</p>
+                <li class="series__news--item">
+                    <a class="series__link" href="#">
+                        <img class="series__picture" width="250" src="images/march.png" alt="march">
+                        <p class="series__news--description">March 2022</p>
                     </a>
                 </li>
-                
-                <li>
-                    <a href="#">
-                        <img width="250" src="images/april.png" alt="april">
-                        <p>April 2022</p>
-                    </a>
-                </li>
+
+            <li class="series__news--item">
+                <a class="series__link" href="#">
+                    <img class="series__picture" src="images/april.png" width="250" alt="april">
+                    <p class="series__news--description">April 2022</p>
+                </a>
+            </li>
             </ul>
-            </section>
-            <section id="character">
-                <h2>CHARACTERS</h2>
-            <ul>
-                <li>
-                    <img width="150" src="images/char-spider.png" alt="char-spider">
-                    <p>Spider man</p>
+        </section>
+        <section id="character">
+            <h2 class="character__title">CHARACTERS</h2>
+            <ul class="character__list">
+                <li class="character__list--item">
+                    <img class="character__image" width="150" src="images\char-spider.png" alt="spider man">
+                    <p class="character__description">Spider man</p>
                 </li>
-                <li>
-                    <img width="150" src="images/char-wolverine.png" alt="char-wolverine">
-                    <p>Wolverine</p>
+                <li class="character__list--item">
+                    <img class="character__image" width="150" src="images/char-wolverine.png" alt="wolverine">
+                    <p class="character__description">Wolverine</p>
                 </li>
-                <li>
-                    <img width="150" src="images/char-iron-man.png" alt="char-iron-man">
-                    <p>Iron man</p>
+                <li class="character__list--item">
+                    <img class="character__image" width="150" src="images/char-iron-man.png" alt="iron man">
+                    <p class="character__description">Iron man</p>
                 </li>
-                <li>
-                    <img width="150" src="images/char-captain-america.png" alt="char-captain-america"> 
-                    <p>Captain Amerika</p>
+                <li class="character__list--item">
+                    <img class="character__image" width="150" src="images/char-captain-america.png" alt="captain america">
+                    <p class="character__description">Captain-america</p>
                 </li>
-                <li>
-                    <img width="150" src="images/char-captain-marvel.png" alt="captain-marvel">
-                    <p>Captain Marvel</p>
+                <li class="character__list--item">
+                    <img class="character__image" width="150" src="images/char-captain-marvel.png" alt="captain-marvel">
+                    <p class="character__description">Captain marvel</p>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <div>
             <img src="images/marvel-logo.png" width="90" height="40" alt="marvel-logo">
             <p>Copyright 2022 Super-Heroes Shop</p>
-            <ul>
+            <ul class="social-icon__list">
                 <li>
-                    <img width="20" src="images/svg/instagram.svg" alt="instagram">
+                    <img width="30" src="images/svg/instagram.svg" alt="instagram">
                 </li>
                 <li>
-                    <img width="20" src="images/svg/twitter.svg" alt="twitter">
+                    <img width="30" src="images/svg/twitter.svg" alt="twitter">
                 </li>
                 <li>
-                    <img width="20" src="images/svg/facebook.svg" alt="facebook">
+                    <img width="30" src="images/svg/facebook.svg" alt="facebook">
                 </li>
             </ul>
         </div>
-        <ul>
+        <ul class="Menu">
             <h3>Menu</h3>
             <li><a href="#news">News</a></li>
             <li><a href="#series">Series</a></li>
-            <li><a href="#character">Character</a></li>  
+            <li><a href="#character">Character</a></li>
         </ul>
         <ul>
             <h3>Company</h3>
             <li><a href="#">Management</a></li>
             <li><a href="#">Our story</a></li>
-            <li><a href="#">Career</a></li>  
+            <li><a href="#">Career</a></li>
         </ul>
         <ul>
             <h3>Support</h3>
             <li><a href="#">Support Center</a></li>
             <li><a href="#">Transaction</a></li>
-            <li><a href="#">Contact us</a></li>  
+            <li><a href="#">Contact us</a></li>
         </ul>
     </footer>
 </body>
