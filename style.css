@@ -225,7 +225,7 @@ ul {
     padding: 0;
 }
 
-.menu {
-    text-decoration: none;
-    text-decoration: black;
+.footer-menu {
+    display: flex;
+    flex-direction: column;
 }
